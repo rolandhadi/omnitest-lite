@@ -1,5 +1,6 @@
 # omnitest-lite
 Reusable Test Automation Framework for QTP/UFT created in Excel Macro for easy deployment and distribution to multiple automation projects.
+Developed and deployed around 2013 to multiple test automation projects.
 
 ![image](https://user-images.githubusercontent.com/65001113/128199363-d2aa1347-9cf6-4b02-aae5-7c283c7c7d68.png)
 
