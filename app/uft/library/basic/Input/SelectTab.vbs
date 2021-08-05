@@ -1,0 +1,1 @@
+Function SelectTab(e) ' [KEYWORD=TRUE] '@L1S1	Err.Clear: On Error GoTo 0	On Error Resume Next	Set s = Evaluate(e)	If s("run") = 1 Then		Set stepReference = s("obj")		stepData = e("data_in") 		If Trim(UCase(stepData)) <> "%SKIP%" Then stepReference.Select stepData	End If	Set SelectTab = EvaluateExecution(Err, "")	Err.Clear: On Error GoTo 0End Function
